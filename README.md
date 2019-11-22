@@ -9,8 +9,8 @@
 - 조현진 (컴퓨터공학과/16) :guswh11
 
 ## About Project
-[CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)
+[algorithms](https://github.com/keon/algorithms)
 
-![CopyTranslator](https://user-images.githubusercontent.com/22427645/50773452-d738dd80-12cb-11e9-9b7c-45e5d7f74c8a.png)
+![algorithms](https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png)
 
-Foreign language reading and translation assistant based on copy and translate.
+Minimal and clean example implementations of data structures and algorithms in Python 3.
