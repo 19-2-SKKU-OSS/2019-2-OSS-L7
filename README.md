@@ -2,11 +2,13 @@
 2019.11.05 :octocat: #L7
 
 ## Members
-- 나종명 (컴퓨터공학과/14) :D-Sinus
-- 박찬혁 (소프트웨어학과/19) :WithM2
-- 손병호 (소프트웨어학과/19) :sonho00
-- 장진우 (소프트웨어학과/19) :doldam0
-- 조현진 (컴퓨터공학과/16) :guswh11
+| Name | Major/Grade | GithubID |
+| --- | --- | --- |
+| 나종명 | 컴퓨터공학과/14   | D-Sinus |
+| 박찬혁 | 소프트웨어학과/19 | WithM2  |
+| 손병호 | 소프트웨어학과/19 | sonho00 |
+| 장진우 | 소프트웨어학과/19 | doldam0 |
+| 조현진 | 컴퓨터공학과/16   | guswh11 |
 
 ## About Project
 [algorithms](https://github.com/keon/algorithms)
