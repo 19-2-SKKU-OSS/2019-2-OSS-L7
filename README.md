@@ -1,245 +1,139 @@
-# Jalpc. [![Analytics](https://ga-beacon.appspot.com/UA-73784599-1/welcome-page)](https://github.com/jarrekk/Jalpc)
+# Prologue - Jekyll Theme
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-prologue.svg)](https://badge.fury.io/rb/jekyll-theme-prologue)
 
-<https://jarrekk.github.io/Jalpc/>
+![Prologue Theme](assets/images/screenshot.png "Prologue Theme Screenshot")
 
-<http://www.jarrekk.com>  -- Personal website
+This is Prologue, a simple, single page responsive site template from [HTML5 UP](https://html5up.net/prologue), now available as a blog-aware Jekyll theme from [Chris Bobbe](https://chrisbobbe.github.io). It features a clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
 
-![Blog](https://github.com/jarrekk/Jalpc/raw/master/readme_files/Jalpc.png)
+**Demo**: https://chrisbobbe.github.io/jekyll-theme-prologue/
 
-- [3 steps to setup this theme at your website!](#3-steps-to-setup-this-theme-at-your-website)
-- [Features](#features)
-  - [Index page](#index-page)
-    - [`_data/*.yml`](#_datayml)
-  - [Chart Skills](#chart-skills)
-  - [Categories in blog page](#categories-in-blog-page)
-  - [Pagination](#pagination)
-  - [Page views counter](#page-views-counter)
-  - [Multilingual Page](#multilingual-page)
-  - [Web analytics](#web-analytics)
-  - [Comment](#comment)
-  - [Share](#share)
-  - [Search engines](#search-engines)
-  - [Compress CSS and JS files](#compress-css-and-js-files)
-- [Put in a Jalpc Plug](#put-in-a-jalpc-plug)
-- [Upgrading Jalpc](#upgrading-jalpc)
-  - [Ensure there's an upstream remote](#ensure-theres-an-upstream-remote)
-  - [Pull in the latest changes](#pull-in-the-latest-changes)
-- [Todo](#todo)
-- [Donate Jalpc](#donate-jalpc)
-- [Wiki](#wiki)
-- [Ad](#ad)
+# Added Features
 
-This is a simple, beautiful and swift theme for Jekyll. It's mobile first, fluidly responsive, and delightfully lightweight.
+* **Blogging and multi-page features you expect from Jekyll**
+* Compatible with GitHub Pages
+* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
+* Build your homepage with **custom scrolly sections** in the _sections folder
+ * Set a **cover photo** for any section (not just the first), with alt text for screen readers and SEO
+* Add your **social profiles** easily in `_config.yml`.
+* Automatic search engine optimization (SEO) **meta tags** based on info you provide in `_config.yml` and frontmatter
+* **Google Analytics** built-in; just put your [Tracking ID](https://support.google.com/analytics/answer/1008080?hl=en) in `_config.yml` as `google_analytics`
+* Custom **404 page** (called 404.html; to activate, move it to your project directory).
 
-If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by Smashing Magazine.
+# Installation
 
-# 3 steps to setup this theme at your website!
+There are two ways to get started (choose one):
 
-Here is a [document](https://jarrekk.github.io/Jalpc/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html) of how to setup this theme with 3 steps and a [wiki](https://github.com/jarrekk/Jalpc/wiki/How-to-add-posts) of how to add posts. If you have any **questions** please ask me at [GitHub Issues](https://github.com/jarrekk/Jalpc/issues).
+1. **Install the [jekyll-theme-prologue gem](https://rubygems.org/gems/jekyll-theme-prologue).** Instructions are in the [Jekyll docs](https://jekyllrb.com/docs/themes/#installing-a-theme). After running `bundle install`, you can find the theme files by running `open $(bundle show jekyll-theme-prologue)`.  A sample working `_config.yml` file ships with the gem; if you want to activate it, move it to your project's root directory. It will do nothing until you move it there, replacing the default `_config.yml` file.
+2. **Fork or clone the [GitHub repository](https://github.com/chrisbobbe/jekyll-theme-prologue).** If you want to use [GitHub Pages](https://pages.github.com/), create a branch named `gh-pages`, and replace `theme: jekyll-theme-prologue` with `remote_theme: chrisbobbe/jekyll-theme-prologue` in the provided `_config.yml` ([GitHub Pages now supports open-source themes on GitHub](https://github.com/blog/2464-use-any-theme-with-github-pages)).
 
-# Features
+Next, make sure that `url` and `base_url` are set for your own website in `_config.yml`. For local testing, make them both blank. Add a photo avatar to your project, then set `avatar: path/to/your/avatar.jpg` in _config.yml; for example, `avatar: assets/images/avatar.jpg` (48x48 pixels works best). Poke around the sample `_config.yml` file to see how you can add your social profiles.
 
-## Index page
+# Build your homepage
 
-The index page is seprated into several sections and they are located in `_includes/sections`,the configuration is in `_data/landing.yml` and section's detail configuration is in `_data/*.yml`.
+1. **Your `_config.yml` file must include the following line or your homepage won't work**: `collections: [sections]`. This tells Jekyll to look in the _sections folder (which you will create) for your content and render it all on one page.
 
-### `_data/*.yml`
+2. **Create a `_sections` folder** in your project's root directory and start adding content to your homepage. Set a cover photo in any of the sections by adding `cover-photo: path/to/photo.jpg` and `cover-photo-alt: your alt text here` to the section's frontmatter. Sample content is provided in the [GitHub repository](https://github.com/chrisbobbe/jekyll-theme-prologue/tree/master/_sections).
 
-These files are used to dynamically render pages, so you almost don't have to edit *html files* to change your own theme, besides you can use `jekyll serve --watch` to reload changes.
+All new sections should be added as html or Markdown documents in the `_sections` folder. The following section variables can be set with [frontmatter](https://jekyllrb.com/docs/frontmatter/):
+- `title` (required)
+- `order` (required; orders the sequence of sections on the page. Example: `1`)
+- `cover-photo` (optional; sets a background image for the section. Example: `assets/images/banner.jpg`)
+- `cover-photo-alt` (required if using a cover photo. Describes the photo for screen readers and SEO; e.g. "Dome of Light art installation, Kaohsiung, Taiwan")
+- `icon` (optional; see [Font Awesome](https://fontawesome.com/icons) for icon codes. Example: `fa-github`)
+- `icon-style` (optional; "solid" is default, "regular" for outline style icons, or "brands" for logos)
+- `auto-header` (optional; "use-title" is default, "none" for no header, or custom header text)
+- `hide` (optional; if `true`, the section won't appear)
 
-The following is mapping between *yml files* to *sections*.
+# Start blogging!
 
-* landing.yml ==> index.html
-* index/language.yml ==> index.html
-* index/careers.yml  ==>  _includes/sections/career.html
-* index/skills.yml  ==>  _includes/sections/skills.html
-* index/projects.yml  ==>  _includes/sections/projects.html
-* index/links.yml  ==>  _includes/sections/links.html
-
-This *yml file* is about blog page navbar
-
-* blog.yml ==> _includes/header.html
-
-The following is mapping between *yml files* to *donation*
-
-* donation/donationlist.yml ==> blog/donate.html
-* donation/alipay.yml  ==>  blog/donate.html
-* donation/wechat_pay.yml ==> blog/donate.yml
-
-## Chart Skills
-
-I use [Chart.js](http://www.chartjs.org/) to show skills, the type of skills' chart is radar, if you want to custom, please read document of Chart.js and edit **_includes/sections/skills.html** and **_data/index/skills.yml**.
-
-## Categories in blog page
-
-In blog page, we categorize posts into several categories by url, all category pages use same template html file - `_includes/category.html`.
-
-For example: URL is `http://127.0.0.1:4000/python/`. In `_data/blog.yml`, we define this category named `Python`, so in `_includes/category.html` we get this URL(/python/) and change it to my category(Python), then this page are posts about **Python**. The following code is about how to get url and display corresponding posts in  `_includes/category.html`.
-
-```html
-<div class="row">
-    <div class="col-lg-12 text-center">
-        <div class="navy-line"></div>
-        {% assign category = page.url | remove:'/' | capitalize %}
-        {% if category == 'Html' %}
-        {% assign category = category | upcase %}
-        {% endif %}
-        <h1>{{ category }}</h1>
-    </div>
-</div>
-<div class="wrapper wrapper-content  animated fadeInRight blog">
-    <div class="row">
-        <ul id="pag-itemContainer" style="list-style:none;">
-            {% assign counter = 0 %}
-            {% for post in site.categories[category] %}
-            {% assign counter = counter | plus: 1 %}
-            <li>
-```
-
-## Pagination
-
-The pagination in jekyll is not very perfect,so I use front-end web method,there is a [blog](http://www.jarrekk.com/html/2016/06/04/jekyll-pagination-with-jpages.html) about the method and you can refer to [jPages](http://luis-almeida.github.io/jPages).
-
-## Page views counter
-
-Many third party page counter platforms are too slow,so I count my website page view myself,the javascript file is [static/js/count.min.js](https://github.com/jarrekk/jalpc_jekyll_theme/blob/gh-pages/static/js/count.min.js) ([static/js/count.js](https://github.com/jarrekk/jalpc_jekyll_theme/blob/gh-pages/static/js/count.js)),the backend API is written with flask on [Vultr VPS](https://www.vultr.com/), detail code please see [ztool-backhend-mongo](https://github.com/Z-Tool/ztool-backhend-mongo).
-
-## Multilingual Page
-
-The landing page has multilingual support with the [i18next](http://i18next.com) plugin.
-
-Languages are configured in the `_data/index/language.yml` file.
-
-> Not everyone needs this feature, so I make it very easy to remove it, just clear content in file `_data/language.yml` and folder `static/locales/`.
-
-About how to custom multilingual page, please see [wiki](https://github.com/jarrekk/Jalpc/wiki/Multilingual-Page).
-
-## Web analytics
-
-I use [Google analytics](https://www.google.com/analytics/) and [GrowingIO](https://www.growingio.com/) to do web analytics, you can choose either to realize it,just register a account and replace id in `_config.yml`.
-
-## Comment
-
-I use [Disqus](https://disqus.com/) to realize comment. You should set disqus_shortname and get public key and then, in `_config.yml`, edit the disqus value to enable Disqus.
-
-## Share
-
-I use [AddToAny](https://www.addtoany.com/) to share my blog on other social network platform. You can go to this website to custom your share buttons and paste code at `_includes/share.html`.
-
-![share](https://github.com/jarrekk/Jalpc/raw/master/readme_files/share.png)
-
-## Search engines
-
-I use javascript to realize blog search,you can double click `Ctrl` or click the icon at lower right corner of the page,the detail you can got to this [repository](https://github.com/androiddevelop/jekyll-search). Just use it.
-
-![search](https://github.com/jarrekk/Jalpc/raw/master/readme_files/search.gif)
-
-## Compress CSS and JS files
-
-All CSS and JS files are compressed at `/static/assets`.
-
-I use [UglifyJS2](https://github.com/mishoo/UglifyJS2), [clean-css](https://github.com/jakubpawlowicz/clean-css) to compress CSS and JS files, customised CSS files are at `_sass` folder which is feature of [Jekyll](https://jekyllrb.com/docs/assets/). If you want to custom CSS and JS files, you need to do the following:
-
-1. Install [NPM](https://github.com/npm/npm) then install **UglifyJS2** and **clean-css**: `npm install -g uglifyjs; npm install -g clean-css`, then run `npm install` at root dir of project.
-2. Compress script is **build.js**
-3. If you want to add or remove CSS/JS files, just edit **build/build.js** and **build/files.conf.js**, then run `npm run build` at root dir of project, link/src files will use new files.
-
-OR
-
-Edit CSS files at `_sass` folder.
-
-# Put in a Jalpc Plug
-
-If you want to give credit to the Jalpc theme with a link to my personal website <http://www.jarrekk.com>, that'd be awesome. No worries if you don't.
-
-# Upgrading Jalpc
-
-Jalpc is always being improved by its users, so sometimes one may need to upgrade.
-
-## Ensure there's an upstream remote
-
-If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
+Jekyll has great resources to get you started writing blog posts. Check out [this Jekyll Docs page](https://jekyllrb.com/docs/posts/) first. When you've written a post or two, copy the following into a new file in your project directory called `blog.html`, and you'll see a link to your blog from the homepage:
 
 ```
-git remote add upstream https://github.com/jarrekk/Jalpc.git
+---
+layout: blog
+title: My Blog
+---
 ```
 
-## Pull in the latest changes
+-- and that's it!
+
+# Add a page
+
+To add a page, just make a new .html or .md file in your project directory. There's an example called `reading-list` [provided](https://github.com/chrisbobbe/jekyll-theme-prologue/blob/master/reading-list.md) with the GitHub repository. Add this frontmatter:
 
 ```
-git pull upstream gh-pages
+---
+title: My New Page
+layout: page
+---
 ```
 
-There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
+You can also set these page variables in the frontmatter, if you want:
+- `subtitle`
+- `order` (orders links in the nav menu, e.g. `1`)
+- `icon` (optional; see [Font Awesome](https://fontawesome.com/icons) for icon codes. Example: `fa-github`)
+- `icon-style` (optional; "solid" is default, "regular" for outline style icons, or "brands" for logos)
+- `hide` (optional; if `true`, a link won't appear in the nav menu. All this does is remove the nav link; your page will still be served to anyone who has the URL.)
 
-# Testing Locally
-To test your site locally, you’ll need
+**This same set of frontmatter variables (including `title`) can also be set in `index.md` and `blog.html`.** You may want to give them titles, or hide the homepage link with `hide: true` if the homepage is the only page.
 
-- [ruby](https://www.ruby-lang.org/en/)
-- the [github-pages](https://github.com/github/pages-gem) gem
+For advanced SEO, this theme also lets you add `permalink` (see [Jekyll Docs](https://jekyllrb.com/docs/permalinks/#where-to-configure-permalinks)), `robots` (string, e.g. "noindex, nofollow"), and `canonical` (boolean; true is default) to any page or post.
 
-## Installing ruby
-There are [lots of different ways to install ruby](https://www.ruby-lang.org/en/documentation/installation/).
+# Contributing
 
-In Mac OS X, older versions of ruby will already be installed. But I use the [Ruby Version Manager (RVM)](https://rvm.io/) to have a more recent version. You could also use [Homebrew](https://brew.sh/).
+Please feel free to submit issues and feature requests!
 
-In Windows, use [RubyInstaller](https://rubyinstaller.org/). (In most of this tutorial, I’ve assumed you’re using a Mac or some flavor of Unix. It’s possible that none of this was usable for Windows folks. Sorry!)
+# Credits
 
-## Installing the github-pages gem
-Run the following command:
+Thanks to @andrewbanchich for his many Jekyll adaptations of HTML5 UP's elegant themes, which helped and inspired me, and of course many thanks to HTML5 UP.
 
-```
-gem install github-pages
-```
-
-This will install the github-pages gem and all dependencies (including [jekyll](https://jekyllrb.com/)).
-
-## Later, to update the gem, type:
+Original README from HTML5 UP:
 
 ```
-gem update github-pages
+Prologue by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+
+This is Prologue, a simple, single page responsive site template. It features a
+clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
+
+Demo content images* are courtesy of the ridiculously talented Felicia Simion. Check out
+more of her amazing work over at deviantART:
+
+http://ineedchemicalx.deviantart.com/
+
+(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
+and/or use any of Felicia's work without her explicit permission!)
+
+Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)
+images you can use for pretty much whatever.
+
+(* = Not included)
+
+AJ
+aj@lkn.io | @ajlkn
+
+PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+
+
+Credits:
+
+	Demo Images:
+		Felicia Simion (ineedchemicalx.deviantart.com)
+		Unsplash (unsplash.com)
+
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
+
+	Other
+		jQuery (jquery.com)
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+		CSS3 Pie (css3pie.com)
+		background-size polyfill (github.com/louisremi)
+		Respond.js (j.mp/respondjs)
+		jquery.scrolly (@ajlkn)
+		jquery.scrollzer (@ajlkn)
+		Skel (skel.io)
 ```
-
-Testing your site locally
-To construct and test your site locally, go into the directory and type
-
-```
-jekyll build
-```
-
-This will create (or modify) a `_site/ directory`, containing everything from `assets/`, and then the `index.md` and all `pages/*.md` files, converted to html. (So there’ll be `_site/index.html` and the various `_site/pages/*.html.`)
-
-Type the following in order to “serve” the site. This will first run build, and so it does not need to be preceded by `jekyll build`.
-
-```
-jekyll serve
-```
-
-Now open your browser and go to `http://localhost:4000/site-name/`
-
-# Todo
-- [ ] `jekyll server --watch` mode need to use original CSS/JS files
-- [ ] User can customise index page's section title.
-- [x] Non-github projects also have links.
-- [ ] Add some custom color themes for selection(Nav bar, background, words, dominant hue).
-
-# Donate Jalpc
-If this project let you enjoy your blog time, you can give me a cup of coffee :)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/jarrekk)
-
-# Wiki
-
-* [Multilingual Page](https://github.com/jarrekk/Jalpc/wiki/Multilingual-Page)
-* [How to add posts](https://github.com/jarrekk/Jalpc/wiki/How-to-add-posts)
-* [Change Log](https://github.com/jarrekk/Jalpc/wiki/Change-Log)
-* [Contributors](https://github.com/jarrekk/Jalpc/wiki/Contributors)
-* [Thanks to the following](https://github.com/jarrekk/Jalpc/wiki/Thanks-to-the-following)
-
-# Ad
-[Jalpc-A](https://github.com/Jack614/Jalpc-A): another Jekyll theme written by [AngularJS](https://angularjs.org/).
-

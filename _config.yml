@@ -1,70 +1,63 @@
+# Developer's Note: This is a sample _config.yml file offered with
+# jekyll-theme-prologue for your convenience. To use it, move it to your
+# project's root directory. Please note that the following lines are
+# NECESSARY for Prologue to work correctly:
+#
+# theme: jekyll-theme-prologue
+# collections: [sections]
+#
+# They activate the theme and tell Jekyll to find your homepage content
+# in /_sections. Note where "sections" starts with an underscore
+# and where it doesn't. The social settings will make links to
+# Twitter, etc., but only if you give the URL.
+#
+# Also, be sure to customize url and baseurl for your site.
+#
+# ---------------------------------------------------------------
+#
 # Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Website settings
-title: 2019 SKKU OSS L7
-description: Data Structures And Alrogithms in Python3
-keywords: data-structure, algorithm, python3
-baseurl:  /2019-2-OSS-L7 # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://19-2-skku-oss.github.io/2019-2-OSS-L7  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
-img_path: /2019-2-OSS-L7/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: DOLDAM
+subtitle: SKKU 19
+description: >- # this means to ignore newlines until "baseurl:"
+  프로그래밍 언어, 인공지능에 관심이 많은
+  미천한 학사생입니다.
+author: Jang Jinwoo
+email: none
+avatar: assets/images/avatar.jpg
 
-# author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: OSS L7  # Be used at blog posts' author.
-  first_name: L7  # Be used at index page about me section.
-  last_name: OSS  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: jarrekk  # Leave blank if you don't have now
-  linkedin_id: jarrekk # Leave blank if you don't have now
-  facebook_username: jiakunnj  # Leave blank if you don't have now
-  twitter_username: jiakun614  # Leave blank if you don't have now
-  email:  # Leave blank if you don't have now
-  cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
-  skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
+# You'll want to customize url and baseurl for your own site:
+baseurl: "/static-page" # the subpath of your site, e.g. /blog
+url: "https://doldam0.github.io/" # the base hostname & protocol for your site
 
-# comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+# Social settings
+# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
+twitter_url:
+facebook_url: https://www.facebook.com/profile.php?id=100008043188346
+googleplus_url: 
+instagram_url: https://www.instagram.com/jinu_star0/
+linkedin_url: 
+github_url: https://github.com/doldam0
+pinterest_url:
+slack_url:
+dribbble_url:
 
-# analytics
-## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-id: UA-93473370-3
+# Google Analytics Tracking ID goes here:
+google_analytics:
 
-## google optimize
-go:
-  # id:
-
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
-
-## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
-
-## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
-
-# scss
-sass:
-  style: compressed
-
-# Build settings
-encoding: utf-8
-
-# other settings
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
+# The following settings are NECESSARY for the Prologue theme to run:
+theme: jekyll-theme-prologue
+collections: [sections]
