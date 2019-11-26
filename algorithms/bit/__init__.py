@@ -17,3 +17,5 @@ from .count_flips_to_convert import *
 from .flip_bit_longest_sequence import *
 from .binary_gap import *
 from .bytes_int_conversion import *
+from .trailing_zero import *
+
