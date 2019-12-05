@@ -38,3 +38,4 @@ Minimal and clean example implementations of data structures and algorithms in P
 * Compared to traditional algorithms
 
 ### Creating team static page
+[This](http://19-2-skku-oss.github.io/2019-2-OSS-L7/) is our team static page.
