@@ -1,6 +1,8 @@
 # About our Team
 2019.11.05 :octocat: #L7
 
+* * *
+
 ## Members
 | Name | Major/Grade | GithubID |
 | --- | --- | --- |
@@ -10,6 +12,8 @@
 | 장진우 | 소프트웨어학과/19 | doldam0 |
 | 조현진 | 컴퓨터공학과/16   | guswh11 |
 
+* * *
+
 ## About Project
 Our project based on [algorithms](https://github.com/keon/algorithms).
 
@@ -17,9 +21,11 @@ Our project based on [algorithms](https://github.com/keon/algorithms).
 
 Minimal and clean example implementations of data structures and algorithms in Python 3.
 
+* * *
+
 ## Activities
 ### Code contribution
 * Add algorithms
-> * to resolve issues
-> * 
+> - not on this project
+> - to resolve issues
 * 
