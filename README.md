@@ -24,10 +24,20 @@ Minimal and clean example implementations of data structures and algorithms in P
 * * *
 
 ## Activities
-### Code contribution
+### Code Contribution
 * Add Algorithms
 > - not on this project
 > - to resolve issues
 * Improve Algorithms
 > - increase algorithm speed 
 > - use less memory space
+
+### Creating Documents
+* How the algorithms work
+* Association with the issue
+* Compared to traditional algorithms
+
+### Creating team static page
+Our team static page is [here](https://www.naver.com).
+
+
