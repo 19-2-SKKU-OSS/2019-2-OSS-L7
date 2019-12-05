@@ -19,4 +19,7 @@ Minimal and clean example implementations of data structures and algorithms in P
 
 ## Activities
 ### Code contribution
-> Add Algorithms
+* Add algorithms to resolve issues
+> 
+>
+
