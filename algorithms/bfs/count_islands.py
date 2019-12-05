@@ -67,7 +67,3 @@ def counting_islands(grid):
                 num_islands += 1
 
     return num_islands
-
-
-grid = [[1,1,0,0,1,1], [0,0,1,1,0,0], [0,0,0,0,0,1], [1,1,1,1,0,0]]
-print(counting_islands(grid))
