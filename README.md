@@ -21,30 +21,6 @@ Our project based on [algorithms](https://github.com/keon/algorithms).
 
 Minimal and clean example implementations of data structures and algorithms in Python 3.
 
-* * *
-
-## Activities
-### Code Contribution
-* Add Algorithms
-> - Not on this project
-> - To resolve issues
-* Improve Algorithms
-> - Increase algorithm speed 
-> - Use less memory space
-
-### Creating Documents
-* How the algorithms work
-* Association with the issue
-* Compared to traditional algorithms
-
-### Creating team static page
-[This](http://19-2-skku-oss.github.io/2019-2-OSS-L7/) is our team static page.
-
-* * *
-
-## New Algorithm List
-- [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths)
-  - [find_order_simple](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
 
 
 
