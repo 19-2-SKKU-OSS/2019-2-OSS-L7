@@ -32,3 +32,5 @@
 [This](http://19-2-skku-oss.github.io/2019-2-OSS-L7/) is our team static page.
 
 ## New Algorithm List
+- [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths)
+  - [find_order_simple](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
