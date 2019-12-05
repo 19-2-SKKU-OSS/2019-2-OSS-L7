@@ -21,6 +21,21 @@ Example 2:
 00100
 00011
 Answer: 3
+
+Example 3:
+111000
+110000
+100001
+001101
+001100
+Answer: 3
+
+Example 4:
+110011
+001100
+000001
+111100
+Answer: 5
 """
 
 
@@ -52,3 +67,7 @@ def counting_islands(grid):
                 num_islands += 1
 
     return num_islands
+
+
+grid = [[1,1,0,0,1,1], [0,0,1,1,0,0], [0,0,0,0,0,1], [1,1,1,1,0,0]]
+print(counting_islands(grid))
