@@ -18,4 +18,4 @@ Our project based on [algorithms](https://github.com/keon/algorithms).
 Minimal and clean example implementations of data structures and algorithms in Python 3.
 
 ## Activities
-1) Code contribution
+### Code contribution
