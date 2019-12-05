@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://19-2-skku-oss.github.io
+paginate:            1
+baseurl:             "/2019-2-OSS-L7"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
