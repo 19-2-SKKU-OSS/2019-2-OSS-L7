@@ -11,7 +11,7 @@
 | 조현진 | 컴퓨터공학과/16   | guswh11 |
 
 ## About Project
-Our project based on ![algorithms](https://github.com/keon/algorithms).
+Our project based on [algorithms](https://github.com/keon/algorithms).
 
 ![algorithms](https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png)
 
