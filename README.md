@@ -26,7 +26,11 @@ Minimal and clean example implementations of data structures and algorithms in P
 ## Activities
 ### Code Contribution
 * Add Algorithms
+> - not on this project
+> - to resolve issues
 * Improve Algorithms
+> - increase algorithm speed 
+> - use less memory space
 
 ### Creating Documents
 * How the algorithms work
