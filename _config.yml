@@ -1,7 +1,8 @@
 # Site settings
 title: Emerald | A simple Jekyll blog
 description: "A minimal blog template, build with Jekyll."
-url: "https://19-2-skku-oss.github.io/2019-2-OSS-L7"
+url: "https://19-2-skku-oss.github.io"
+baseurl: "/2019-2-OSS-L7"
 author:
   name: "guswh11"
   email: "guswh11@naver.com"
