@@ -28,6 +28,7 @@ def find_path(maze):
     global cnt
     cnt = -1
 
+    dfs(maze, 0, 0, 0)
     return cnt
 
 
@@ -59,3 +60,9 @@ def dfs(maze, i, j, depth):
     maze[i][j] = 1
 
     return
+
+maze = [[1,0,1,1,1,1],
+ [1,0,1,0,1,0],
+ [1,0,1,0,1,1],
+ [1,1,1,0,1,1]]
+print(find_path(maze))
