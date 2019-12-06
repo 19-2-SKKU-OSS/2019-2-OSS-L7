@@ -42,4 +42,4 @@
   - [maximum_flow](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/network_flow/maximum_flow.py)
 ### Another Files
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
-  - [__init__.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
+  - [__ __init____](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
