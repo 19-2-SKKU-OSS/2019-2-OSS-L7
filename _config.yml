@@ -4,9 +4,8 @@ permalink:           pretty
 # Setup
 title:               Poole
 tagline:             The Jekyll Butler
-url:                 "https://19-2-skku-oss.github.io"
+url:                 "https://19-2-skku-oss.github.io/2019-2-OSS-L7"
 paginate:            1
-baseurl:             "/2019-2-OSS-L7"
 
 # Assets
 #
