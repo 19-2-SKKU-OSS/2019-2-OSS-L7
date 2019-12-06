@@ -54,4 +54,5 @@
   - [init.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit/__init__.py)
   - [trailing_zero.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit/trailing_zero.py)
 - [bfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs)
+  -[count_islands.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
   
