@@ -45,6 +45,6 @@
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
   - [__ __init____](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
 - [tests](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests)
-  - [test_maths.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests/test_maths.py)
+  - [test_maths](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests/test_maths.py)
 - [README](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/README.md)
 - [PULL_REQUEST_TEMPLATE](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/PULL_REQUEST_TEMPLATE.md)
