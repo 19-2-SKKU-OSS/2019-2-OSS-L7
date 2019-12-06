@@ -35,7 +35,7 @@
 
 ## New Files or Edited Files
 ### New Algorithm List
-- [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths)
+- [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/master/algorithms/maths)
   - [find_order_simple.py](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
   - [find_primitive_root_simple.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_primitive_root/algorithms/maths/find_primitive_root_simple.py)
   - [gcd.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_gcd_bit/algorithms/maths/gcd.py)
