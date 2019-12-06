@@ -51,5 +51,6 @@
   - [test_maths.py(add_gcd_bits)](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_gcd_bit/tests/test_maths.py)
   - [test_graph.py(add_network_flow)](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/tests/test_graph.py)
 - [bit](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit)
+  - [init.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit/__init__.py)
   - [trailing_zero.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit/trailing_zero.py)
   
