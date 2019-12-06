@@ -36,15 +36,15 @@
 ## New Files or Edited Files
 ### New Algorithm List
 - [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths)
-  - [find_order_simple](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
-  - [find_primitive_root_simple](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_primitive_root/algorithms/maths/find_primitive_root_simple.py)
-  - [gcd](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_gcd_bit/algorithms/maths/gcd.py)
+  - [find_order_simple.py](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
+  - [find_primitive_root_simple.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_primitive_root/algorithms/maths/find_primitive_root_simple.py)
+  - [gcd.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_gcd_bit/algorithms/maths/gcd.py)
 - [network_flow](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_network_flow/algorithms/graph)
-  - [maximum_flow](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph/maximum_flow.py)
+  - [maximum_flow.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph/maximum_flow.py)
 ### Another Files
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
-  - [__ __init____](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
+  - [__ __init__ __.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
 - [tests](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests)
-  - [test_maths](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests/test_maths.py)
-- [README](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/README.md)
-- [PULL_REQUEST_TEMPLATE](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/PULL_REQUEST_TEMPLATE.md)
+  - [test_maths.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests/test_maths.p
+- [README.md](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/README.md)
+- [PULL_REQUEST_TEMPLATE.md](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/PULL_REQUEST_TEMPLATE.md)
