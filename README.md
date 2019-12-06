@@ -33,7 +33,7 @@
 
 * * *
 
-## New Files
+## New Files or Edited Files
 ### New Algorithm List
 - [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths)
   - [find_order_simple](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
