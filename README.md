@@ -37,6 +37,7 @@
 ### New Algorithm List
 - [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths)
   - [find_order_simple](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
+  - [find_primitive_root_simple](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_primitive_root/algorithms/maths/find_primitive_root_simple.py)
 - [network_flow](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/network_flow)
   - [maximum_flow](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/network_flow/maximum_flow.py)
 ### Another Files
