@@ -15,7 +15,7 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 	<div class="ui two statistics">
 		<div class="statistic">
 			<div class="value" id="num-data-structures">
-				12
+				0
 			</div>
 			<div class="label">
 				Data Structures
@@ -23,7 +23,7 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 		</div>
 		<div class="statistic">
 			<div class="value" id="num-algorithms">
-				150
+				0
 			</div>
 			<div class="label">
 				Algorithms
@@ -87,14 +87,14 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 			if (isScrolled(statistics.amount)) {
 				statistics.increasing = true;
 				setTimeout(() => {
-					for (let i = 1; i <= statistics.data_structures; i++) {
-						let num = document.getElementById('num-data-structures');
+					let num = document.getElementById('num-data-structures');
+					for (let i = Number(num.innerText); i <= statistics.data_structures; i++) {
 						num.textContent = i;
 					}
 				}, 0);
 				setTimeout(() => {
-					for (let i = 1; i <= statistics.algorithms; i++) {
-						let num = document.getElementById('num-algorithms');
+					let num = document.getElementById('num-algorithms');
+					for (let i = Number(num.innerText); i <= statistics.algorithms; i++) {
 						num.textContent = i;
 					}
 				}, 0);
