@@ -14,7 +14,7 @@ body {
   padding: 0;
 }
 
-html, body {
+ * {
   font-family: $root-font-family !important;
   font-size: $root-font-size !important;
   line-height: $root-line-height !important;
