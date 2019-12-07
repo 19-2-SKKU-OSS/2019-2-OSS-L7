@@ -2,7 +2,6 @@
 2019.11.05 :octocat: #L7
 
 * * *
-* * *
 
 ## Index
 - [Members](#Members)
@@ -14,7 +13,6 @@
   - [New Algorithms](#algotithm)
   - [Another Files](#another)
   
-  * * *
   * * *
 
 ## <div id="Members">Members</div>
