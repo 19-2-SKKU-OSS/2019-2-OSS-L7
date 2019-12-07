@@ -72,7 +72,7 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 	<h1 class="ui header">팀 활동</h1>
 	<script>
 		const statistics = {
-			amount			: 300,
+			amount			: 200,
 			data_structures	: 12,
 			algorithms		: 150,
 			increasing		: false
@@ -86,18 +86,18 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 		window.onscroll = () => {
 			if (isScrolled(statistics.amount)) {
 				statistics.increasing = true;
-				setTimeout(() => {
+				let data_structures = setInterval(() => {
 					let num = document.getElementById('num-data-structures');
 					for (let i = Number(num.innerText); i <= statistics.data_structures; i++) {
 						num.textContent = i;
 					}
-				}, 0);
-				setTimeout(() => {
+				}, 1000 / statistics.data_structures);
+				let alrorithms = setInterval(() => {
 					let num = document.getElementById('num-algorithms');
 					for (let i = Number(num.innerText); i <= statistics.algorithms; i++) {
 						num.textContent = i;
 					}
-				}, 0);
+				}, 1000 / statistics.algorithms);
 			}
 		};
 	</script>
