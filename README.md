@@ -8,6 +8,10 @@
 - [Activities](#Activities)
   - [Code Contribution](#code)
   - [Creating documents](#doc)
+  - [Creating team static page](#page)
+- [New Files or Edited Files](#file)
+  - [New Algorithms](#algotithm)
+  - [Another Files](#another)
 
 
 
@@ -36,20 +40,20 @@
 * Association with the issue
 * Compared to traditional algorithms
 
-### Creating team static page
+### <div id="page">Creating team static page</div>
 [This](http://19-2-skku-oss.github.io/2019-2-OSS-L7/) is our team static page.
 
 * * *
 
-## New Files or Edited Files
-### New Algorithm List
+## <div id="file">New Files or Edited Files</div>
+### <div id="algorithm">New Algorithm List</div>
 - [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/master/algorithms/maths)
   - [find_order_simple.py](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
   - [find_primitive_root_simple.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_primitive_root/algorithms/maths/find_primitive_root_simple.py)
   - [gcd.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_gcd_bit/algorithms/maths/gcd.py)
 - [network_flow](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_network_flow/algorithms/graph)
   - [maximum_flow.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph/maximum_flow.py)
-### Another Files
+### <div id="another">Another Files</div>
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
   - [init.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
 - [graph](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph)
