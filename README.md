@@ -4,7 +4,7 @@
 * * *
 
 ## Index
-### [Members](#Members)
+
 ### Activities
 
 
@@ -63,4 +63,5 @@
   - [count_islands.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
 - [dfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs)
   - [maze_search.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
+### [Members](#Members)
   
