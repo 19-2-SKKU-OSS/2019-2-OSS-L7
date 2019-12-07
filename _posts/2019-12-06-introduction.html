@@ -88,14 +88,16 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 				statistics.increasing = true;
 				let data_structures = setInterval(() => {
 					let num = document.getElementById('num-data-structures');
-					for (let i = Number(num.innerText); i <= statistics.data_structures; i++) {
-						num.textContent = i;
+					num.textContent = Number(num.innerText) + 1;
+					if (Number(num.textContent) === statistics.data_structures) {
+						clearInterval(data_structures);
 					}
 				}, 1000 / statistics.data_structures);
 				let alrorithms = setInterval(() => {
 					let num = document.getElementById('num-algorithms');
-					for (let i = Number(num.innerText); i <= statistics.algorithms; i++) {
-						num.textContent = i;
+					num.textContent = Number(num.innerText) + 1;
+					if (Number(num.textContent) === statistics.algorithms) {
+						clearInterval(algorithms);
 					}
 				}, 1000 / statistics.algorithms);
 			}
