@@ -13,7 +13,7 @@
   - [New Algorithms](#algotithm)
   - [Another Files](#another)
   
-  * * *
+* * *
 
 ## <div id="Members">Members</div>
 | Name | Major/Grade | GithubID |
