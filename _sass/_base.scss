@@ -16,11 +16,11 @@ body {
 
  * {
   font-family: $root-font-family !important;
-  font-size: $root-font-size !important;
-  line-height: $root-line-height !important;
+  font-size: $root-font-size;
+  line-height: $root-line-height;
 
   @media (min-width: $large-breakpoint) {
-    font-size: $large-font-size !important;
+    font-size: $large-font-size;
   }
 }
 
