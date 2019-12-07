@@ -12,6 +12,7 @@
 - [New or Edited Files](#file)
   - [New Algorithms](#algotithm)
   - [Another Files](#another)
+- [Wiki](#wiki)
   
 * * *
 
@@ -70,4 +71,5 @@
 - [dfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs)
   - [maze_search.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
 
-  
+## <div id="wiki">Wiki</div>
+  Our wiki page is [here](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/wiki).
