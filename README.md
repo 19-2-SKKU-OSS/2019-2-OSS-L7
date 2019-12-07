@@ -7,9 +7,9 @@
 - [Members](#Members)
 - [Activities](#Activities)
   - [Code Contribution](#code)
-  - [Creating documents](#doc)
-  - [Creating team static page](#page)
-- [New Files or Edited Files](#file)
+  - [Creating Documents](#doc)
+  - [Creating Team Static Page](#page)
+- [New or Edited Files](#file)
   - [New Algorithms](#algotithm)
   - [Another Files](#another)
 
@@ -40,12 +40,12 @@
 * Association with the issue
 * Compared to traditional algorithms
 
-### <div id="page">Creating team static page</div>
+### <div id="page">Creating Team Static Page</div>
 [This](http://19-2-skku-oss.github.io/2019-2-OSS-L7/) is our team static page.
 
 * * *
 
-## <div id="file">New Files or Edited Files</div>
+## <div id="file">New or Edited Files</div>
 ### <div id="algorithm">New Algorithm List</div>
 - [maths](https://github.com/19-2-SKKU-OSS/algorithms/tree/master/algorithms/maths)
   - [find_order_simple.py](https://github.com/19-2-SKKU-OSS/algorithms/tree/add_find_order/algorithms/maths/find_order_simple.py)
