@@ -23,7 +23,7 @@
     font-family: 'D2Coding Ligature';
     src:    local('D2Coding Ligature'),
             local('D2Coding'),
-            url('../public/font/D2Codingligature-03.ttf'), format();
+            url('./public/font/D2Codingligature-03.ttf'), format();
     font-weight: normal;
 }
 
@@ -31,6 +31,6 @@
     font-family: 'D2Coding Ligature';
     src:    local('D2Coding Ligature'),
             local('D2Coding'),
-            url('../public/font/D2CodingligatureBold-04.ttf'), format();
+            url('./public/font/D2CodingligatureBold-04.ttf'), format();
     font-weight: bold;
 }
