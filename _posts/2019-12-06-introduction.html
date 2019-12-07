@@ -83,7 +83,7 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 				document.documentElement.scrollTop > scroll;
 		}
 
-		window.onscroll(() => {
+		window.onscroll = () => {
 			if (isScrolled(statistics.amount)) {
 				statistics.increasing = true;
 				setTimeout(() => {
@@ -99,6 +99,6 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 					}
 				}, 0);
 			}
-		});
+		};
 	</script>
 </body>
