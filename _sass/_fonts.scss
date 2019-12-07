@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'aGothic';
     src:    local('a고딕12'),
+            url('/2019-2-OSS-L7/public/font/aGothic12.woff'), format('woff'),
             url('/2019-2-OSS-L7/public/font/aGothic12.otf'), format('opentype'),
             url('/2019-2-OSS-L7/public/font/aGothic12.ttf'), format('truetype');
     font-weight: normal;
@@ -9,6 +10,7 @@
 @font-face {
     font-family: 'aGothic';
     src:    local('a고딕14'),
+            url('/2019-2-OSS-L7/public/font/aGothic14.woff'), format('woff'),
             url('/2019-2-OSS-L7/public/font/aGothic14.otf'), format('opentype'),
             url('/2019-2-OSS-L7/public/font/aGothic14.ttf'), format('truetype');
     font-weight: bold;
