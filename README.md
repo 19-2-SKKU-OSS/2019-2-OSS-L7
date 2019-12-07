@@ -2,6 +2,7 @@
 2019.11.05 :octocat: #L7
 
 * * *
+* * *
 
 ## Index
 - [Members](#Members)
@@ -12,8 +13,9 @@
 - [New or Edited Files](#file)
   - [New Algorithms](#algotithm)
   - [Another Files](#another)
-
-
+  
+  * * *
+  * * *
 
 ## <div id="Members">Members</div>
 | Name | Major/Grade | GithubID |
