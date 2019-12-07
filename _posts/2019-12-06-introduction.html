@@ -84,9 +84,9 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 		}
 
 		window.onscroll = () => {
-			const animation_time = 2000;
-			
-			if (isScrolled(statistics.amount)) {
+			const animation_time = 1000;
+
+			if (!statistics.increasing && isScrolled(statistics.amount)) {
 				statistics.increasing = true;
 				let data_structures = setInterval(() => {
 					let num = document.getElementById('num-data-structures');
