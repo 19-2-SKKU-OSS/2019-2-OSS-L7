@@ -4,70 +4,101 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 ---
 
 <body>
-    <h1 class="ui header">Algorithm</h1>
-    <img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"
-        style="width: 100%;">
-    <p>
-        이 프로젝트는 자료구조와 알고리즘을 파이썬으로 작성한 것입니다. <br>
-        파이썬의 간결함을 토대로 가장 깔끔한 코드를 만드는 것이 목표입니다. <br>
-    </p>
-    <h2 class="ui header">진행 상황</h3>
-    <div class="ui two statistics">
-        <div class="statistic">
-            <div class="value">
-                12
-            </div>
-            <div class="label">
-                Data Structures
-            </div>
-        </div>
-        <div class="statistic">
-            <div class="value">
-                150
-            </div>
-            <div class="label">
-                Algorithms
-            </div>
-        </div>
-    </div>
-    <p>
-        현재 12개의 자료구조와 약 150개의 알고리즘이 구현되어 있습니다. <br>
-    </p>
-    <h1 class="ui header">팀원 소개</h1>
-    <p>
-        저희 팀원을 소개합니다!
-    </p>
-    <div class="ui grid">
-        <div class="eight wide column">
-            <h3 class="ui header">나종명</h2>
-            <p>
-                
-            </p>
-        </div>
-        <div class="eight wide column">
-            <h3 class="ui header">조현진</h2>
-            <p>
-                
-            </p>
-        </div>
-        <div class="eight wide column">
-            <h3 class="ui header">손병호</h2>
-            <p>
-                
-            </p>
-        </div>
-        <div class="eight wide column">
-            <h3 class="ui header">박찬혁</h2>
-            <p>
-                
-            </p>
-        </div>
-        <div class="eight wide column">
-            <h3 class="ui header">장진우</h2>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    <h1 class="ui header">팀 활동</h1>
+	<h1 class="ui header">Algorithm</h1>
+	<img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"
+		style="width: 100%;">
+	<p>
+		이 프로젝트는 자료구조와 알고리즘을 파이썬으로 작성한 것입니다. <br>
+		파이썬의 간결함을 토대로 가장 깔끔한 코드를 만드는 것이 목표입니다. <br>
+	</p>
+	<h2 class="ui header">진행 상황</h3>
+	<div class="ui two statistics">
+		<div class="statistic">
+			<div class="value" id="num-data-structures">
+				12
+			</div>
+			<div class="label">
+				Data Structures
+			</div>
+		</div>
+		<div class="statistic">
+			<div class="value" id="num-algorithms">
+				150
+			</div>
+			<div class="label">
+				Algorithms
+			</div>
+		</div>
+	</div>
+	<p>
+		현재 12개의 자료구조와 약 150개의 알고리즘이 구현되어 있습니다. <br>
+	</p>
+	<h1 class="ui header">팀원 소개</h1>
+	<p>
+		저희 팀원을 소개합니다!
+	</p>
+	<div class="ui grid">
+		<div class="eight wide column">
+			<h3 class="ui header">나종명</h2>
+			<p>
+				
+			</p>
+		</div>
+		<div class="eight wide column">
+			<h3 class="ui header">조현진</h2>
+			<p>
+				
+			</p>
+		</div>
+		<div class="eight wide column">
+			<h3 class="ui header">손병호</h2>
+			<p>
+				
+			</p>
+		</div>
+		<div class="eight wide column">
+			<h3 class="ui header">박찬혁</h2>
+			<p>
+				
+			</p>
+		</div>
+		<div class="eight wide column">
+			<h3 class="ui header">장진우</h2>
+			<p>
+				
+			</p>
+		</div>
+	</div>
+	<h1 class="ui header">팀 활동</h1>
+	<script>
+		const statistics = {
+			amount			: 300,
+			data_structures	: 12,
+			algorithms		: 150,
+			increasing		: false
+		};
+
+		function isScrolled(scroll) {
+			return document.body.scrollTop > scroll ||
+				document.documentElement.scrollTop > scroll;
+		}
+
+		window.onscroll(() => {
+			if (isScrolled(statistics.amount)) {
+				statistics.increasing = true;
+				setTimeout(() => {
+					for (let i = 1; i <= statistics.data_structures; i++) {
+						let num = document.getElementById('num-data-structures');
+						num.textContent = i;
+					}
+				}, 0);
+				setTimeout(() => {
+					for (let i = 1; i <= statistics.algorithms; i++) {
+						let num = document.getElementById('num-algorithms');
+						num.textContent = i;
+					}
+				}, 0);
+			}
+		});
+	</script>
 </body>
