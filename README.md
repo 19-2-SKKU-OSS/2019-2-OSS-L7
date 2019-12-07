@@ -3,7 +3,13 @@
 
 * * *
 
-## Members
+## Index
+### [Members](#Members)
+### Activities
+
+
+
+## <div id="Members">Members</div>
 | Name | Major/Grade | GithubID |
 | :---: | :---: | :---: |
 | 나종명 | 컴퓨터공학과/14   | D-Sinus |
