@@ -1,26 +1,27 @@
 @font-face {
     font-family: 'aGothic';
     src:    local('a고딕12'),
-            url('/2019-2-OSS-L7/public/font/aGothic12.woff'), format('woff'),
-            url('/2019-2-OSS-L7/public/font/aGothic12.otf'), format('opentype'),
-            url('/2019-2-OSS-L7/public/font/aGothic12.ttf'), format('truetype');
+            url('/2019-2-OSS-L7/public/font/aGothic12.woff') format('woff'),
+            url('/2019-2-OSS-L7/public/font/aGothic12.otf') format('opentype'),
+            url('/2019-2-OSS-L7/public/font/aGothic12.ttf') format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'aGothic';
     src:    local('a고딕14'),
-            url('/2019-2-OSS-L7/public/font/aGothic14.woff'), format('woff'),
-            url('/2019-2-OSS-L7/public/font/aGothic14.otf'), format('opentype'),
-            url('/2019-2-OSS-L7/public/font/aGothic14.ttf'), format('truetype');
+            url('/2019-2-OSS-L7/public/font/aGothic14.woff') format('woff'),
+            url('/2019-2-OSS-L7/public/font/aGothic14.otf') format('opentype'),
+            url('/2019-2-OSS-L7/public/font/aGothic14.ttf') format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'aGothic';
     src:    local('a고딕17'),
-            url('/2019-2-OSS-L7/public/font/aGothic17.otf'), format('opentype'),
-            url('/2019-2-OSS-L7/public/font/aGothic17.ttf'), format('truetype');    
+            url('/2019-2-OSS-L7/public/font/aGothic17.woff') format('woff'),
+            url('/2019-2-OSS-L7/public/font/aGothic17.otf') format('opentype'),
+            url('/2019-2-OSS-L7/public/font/aGothic17.ttf') format('truetype');    
     font-weight: bolder;
 }
 
@@ -28,7 +29,7 @@
     font-family: 'D2Coding Ligature';
     src:    local('D2Coding Ligature'),
             local('D2Coding'),
-            url('/2019-2-OSS-L7/public/font/D2Codingligature-03.ttf'), format();
+            url('/2019-2-OSS-L7/public/font/D2Codingligature-03.ttf') format();
     font-weight: normal;
 }
 
@@ -36,6 +37,6 @@
     font-family: 'D2Coding Ligature';
     src:    local('D2Coding Ligature'),
             local('D2Coding'),
-            url('/2019-2-OSS-L7/public/font/D2CodingligatureBold-04.ttf'), format();
+            url('/2019-2-OSS-L7/public/font/D2CodingligatureBold-04.ttf') format();
     font-weight: bold;
 }
