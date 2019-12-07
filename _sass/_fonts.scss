@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'aGothic';
+    src:    local('a고딕12'),
+            url('../public/font/aGothic12.otf'), format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'aGothic';
+    src:    local('a고딕14'),
+            url('../public/font/aGothic14.otf'), format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'aGothic';
+    src:    local('a고딕17'),
+            url('../public/font/aGothic17.otf'), format('opentype');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'D2Coding Ligature';
+    src:    local('D2Coding Ligature'),
+            local('D2Coding'),
+            url('../public/font/D2Codingligature-03.ttf'), format();
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'D2Coding Ligature';
+    src:    local('D2Coding Ligature'),
+            local('D2Coding'),
+            url('../public/font/D2CodingligatureBold-04.ttf'), format();
+    font-weight: bold;
+}
