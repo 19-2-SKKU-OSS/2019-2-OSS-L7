@@ -40,3 +40,8 @@
             url('/2019-2-OSS-L7/public/font/D2CodingligatureBold-04.ttf') format();
     font-weight: bold;
 }
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
