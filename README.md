@@ -4,8 +4,10 @@
 * * *
 
 ## Index
-### - [Members](#Members)
-### - [Activities](#Activities)
+- [Members](#Members)
+- [Activities](#Activities)
+  - [Code Contribution](#code)
+  - [Creating documents](#doc)
 
 
 
@@ -21,7 +23,7 @@
 * * *
 
 ## <div id="Activities">Activities</div>
-### Code Contribution
+### <div id="code">Code Contribution</div>
 * Add Algorithms
 > - Not on this project
 > - To resolve issues
@@ -29,7 +31,7 @@
 > - Increase algorithm speed 
 > - Use less memory space
 
-### Creating Documents
+### <div id="doc">Creating Documents</div>
 * How the algorithms work
 * Association with the issue
 * Compared to traditional algorithms
