@@ -84,6 +84,8 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 		}
 
 		window.onscroll = () => {
+			const animation_time = 2000;
+			
 			if (isScrolled(statistics.amount)) {
 				statistics.increasing = true;
 				let data_structures = setInterval(() => {
@@ -93,7 +95,7 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 					} else {
 						clearInterval(data_structures);
 					}
-				}, 1000 / statistics.data_structures);
+				}, animation_time / statistics.data_structures);
 				let algorithms = setInterval(() => {
 					let num = document.getElementById('num-algorithms');
 					if (Number(num.textContent) < statistics.algorithms) {
@@ -102,7 +104,7 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 					else {
 						clearInterval(algorithms);
 					}
-				}, 1000 / statistics.algorithms);
+				}, animation_time / statistics.algorithms);
 			}
 		};
 	</script>
