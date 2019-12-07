@@ -16,11 +16,11 @@ body {
 }
 
 html {
-  font-size: $root-font-size;
-  line-height: $root-line-height;
+  font-size: $root-font-size !important;
+  line-height: $root-line-height !important;
 
   @media (min-width: $large-breakpoint) {
-    font-size: $large-font-size;
+    font-size: $large-font-size !important;
   }
 }
 
