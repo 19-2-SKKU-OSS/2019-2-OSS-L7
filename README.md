@@ -44,6 +44,8 @@
 ### <div id="page">Creating Team Static Page</div>
 [This](http://19-2-skku-oss.github.io/2019-2-OSS-L7/) is our team static page.
 
+<img src="https://user-images.githubusercontent.com/56295771/70390530-2b35d000-1a0f-11ea-8884-db26fba976a8.PNG" width="50%"></img>
+
 * * *
 
 ## <div id="file">New or Edited Files</div>
