@@ -1,5 +1,5 @@
 # Site settings
-title: Algorithm | SKKU OSS L7
+title: <span class="hide">Algorithm | SKKU OSS L7</span>
 description: "가장 아름다운 파이썬 알고리즘 라이브러리"
 url: "https://19-2-skku-oss.github.io"
 baseurl: "/2019-2-OSS-L7"
