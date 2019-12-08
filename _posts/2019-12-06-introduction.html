@@ -33,9 +33,17 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 	<p>
 		현재 12개의 자료구조와 약 150개의 알고리즘이 구현되어 있습니다. <br>
 	</p>
-	<h1 class="ui header">팀원 소개</h1>
+	<h1 class="ui header">팀 활동</h1>
+	<h3>코드 기여</h3>
+	<ul>
+		<li>이슈 해결 위주의 알고리즘 제작</li>
+		<li>시간복잡도와 공간복잡도 단축</li>
+	</ul>
+	<h3>문서 제작</h3>
+	<h3>팀 깃허브 페이지 제작</h3>
+	<h1 class="ui header">팀원별 활동</h1>
 	<p>
-		저희 팀원을 소개합니다!
+		저희 팀원들이 누군지, 뭘 했는지 궁금하지 않으세요?
 	</p>
 	<div class="ui grid">
 		<div class="eight wide column">
@@ -132,7 +140,6 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 			</div>
 		</div>
 	</div>
-	<h1 class="ui header">팀 활동</h1>
 	<script>
 		const statistics = {
 			amount			: 200,
@@ -140,34 +147,47 @@ title: 가장 아름다운 파이썬 알고리즘 라이브러리
 			algorithms		: 150,
 			increasing		: false
 		};
+		const animation_time = 1000;
 
-		function isScrolled(scroll) {
-			return document.body.scrollTop > scroll ||
-				document.documentElement.scrollTop > scroll;
+		function ease_out(obj, num) {
+			function getNumber() {
+				return Number(obj.innerText);
+			}
+			function current_time() {
+				const v = getNumber();
+				// return (2 * v * v - 2 * v + 1) * (2 * v - 1) / (num * num * num * num);
+				return (Math.pow(num - v + 1, 1 / 4) - Math.pow(num - v, 1 / 4)) 
+					/ Math.pow(num, 1 / 4);
+			}
+			let result = 0;
+			function addNumber() {
+				if (getNumber() < num) {
+					obj.textContent = getNumber() + 1;
+					setTimeout(addNumber, animation_time * current_time());
+					result += current_time();
+					console.log(result);
+				}
+			}
+			setTimeout(addNumber, 0);
 		}
 
 		window.onscroll = () => {
-			const animation_time = 1000;
-
+			function isScrolled(scroll) {
+				return document.body.scrollTop > scroll ||
+					document.documentElement.scrollTop > scroll;
+			}
+			
 			if (!statistics.increasing && isScrolled(statistics.amount)) {
 				statistics.increasing = true;
-				let data_structures = setInterval(() => {
-					let num = document.getElementById('num-data-structures');
-					if (Number(num.textContent) < statistics.data_structures) {
-						num.textContent = Number(num.innerText) + 1;
-					} else {
-						clearInterval(data_structures);
-					}
-				}, animation_time / statistics.data_structures);
-				let algorithms = setInterval(() => {
-					let num = document.getElementById('num-algorithms');
-					if (Number(num.textContent) < statistics.algorithms) {
-						num.textContent = Number(num.innerText) + 1;
-					}
-					else {
-						clearInterval(algorithms);
-					}
-				}, animation_time / statistics.algorithms);
+				// console.log('start');
+				ease_out(
+					document.getElementById('num-data-structures'),
+					statistics.data_structures
+				);
+				ease_out(
+					document.getElementById('num-algorithms'),
+					statistics.algorithms
+				);
 			}
 		};
 	</script>
