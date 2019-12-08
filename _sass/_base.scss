@@ -7,6 +7,13 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   font-family: $root-font-family !important;
+  animation-name: opacity;
+  animation-duration: 1s;
+}
+
+@keyframes opacity {
+  from { opacity: 0 }
+  to { opacity: 1; }
 }
 
 html,
