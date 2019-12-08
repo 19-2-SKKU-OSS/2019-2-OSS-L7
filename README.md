@@ -42,9 +42,12 @@
 * Compared to traditional algorithms
 
 ### <div id="page">Creating Team Static Page</div>
-[This](http://19-2-skku-oss.github.io/2019-2-OSS-L7/) is our team static page.
+Our static page summing-up our activities.
 
-<img src="https://user-images.githubusercontent.com/56295771/70390530-2b35d000-1a0f-11ea-8884-db26fba976a8.PNG" width="50%"></img>
+[가장 아름다운 파이썬 알고리즘 라이브러리](http://19-2-skku-oss.github.io/2019-2-OSS-L7/)
+
+
+<img src="https://user-images.githubusercontent.com/56295771/70390756-46a1da80-1a11-11ea-92fd-1b544a6ce2b5.PNG" width="50%"></img><img src="https://user-images.githubusercontent.com/56295771/70390757-473a7100-1a11-11ea-8235-db665dbc63bc.PNG" width="50%"></img>
 
 * * *
 
