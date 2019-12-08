@@ -7,6 +7,13 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   font-family: $root-font-family !important;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
   animation-name: opacity;
   animation-duration: 1s;
 }
