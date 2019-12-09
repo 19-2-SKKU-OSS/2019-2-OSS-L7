@@ -27,6 +27,13 @@
 
 * * *
 
+## About Project
+Our project based on [algorithms](https://github.com/keon/algorithms).
+
+![algorithms](https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png)
+
+Minimal and clean example implementations of data structures and algorithms in Python 3.
+
 ## <div id="Activities">Activities</div>
 ### <div id="code">Code Contribution</div>
 * Add Algorithms
@@ -35,6 +42,8 @@
 * Improve Algorithms
 > - Increase algorithm speed 
 > - Use less memory space
+
+* * *
 
 ### <div id="doc">Creating Documents</div>
 * How the algorithms work
