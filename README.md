@@ -100,14 +100,10 @@ If you want to uninstall algorithms, it is as simple as:
 > - Increase algorithm speed 
 > - Use less memory space
 
-* * *
-
 ### <div id="doc">Creating Documents</div>
 * How the algorithms work
 * Association with the issue
 * Compared to traditional algorithms
-
-* * *
 
 ### <div id="page">Creating Team Static Page</div>
 - Our static page summing-up our activities.
@@ -147,6 +143,8 @@ If you want to uninstall algorithms, it is as simple as:
   - [count_islands.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
 - [dfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs)
   - [maze_search.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
+
+* * *
 
 ## <div id="wiki">Wiki</div>
   Our wiki page is [here](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/wiki).
