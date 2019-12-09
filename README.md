@@ -11,7 +11,7 @@
   - [Creating Documents](#doc)
   - [Creating Team Static Page](#page)
 - [New or Edited Files](#file)
-  - [New Algorithms](#algotithm)
+  - [New Algorithms](#algorithm)
   - [Another Files](#another)
 - [Wiki](#wiki)
   
