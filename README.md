@@ -64,6 +64,8 @@ For running all tests write down:
 
     $ python3 -m pytest tests
 
+* * *
+
 ## <div id = "install">Install</div>
 If you want to use the API algorithms in your code, it is as simple as:
 
@@ -79,6 +81,8 @@ if __name__ == "__main__":
     my_list = merge_sort(my_list)
     print(my_list)
 ```
+
+* * *
 
 ## <div id = "uninstall">Uninstall</div>
 If you want to uninstall algorithms, it is as simple as:
