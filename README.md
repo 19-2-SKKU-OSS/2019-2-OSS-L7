@@ -130,6 +130,7 @@ If you want to uninstall algorithms, it is as simple as:
 ### <div id="another">Another Files</div>
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
   - [init.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
+  - [diffie_hellman_key_exchange.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_diffie_hellman_key_exchange/algorithms/maths/diffie_hellman_key_exchange.py)
 - [graph](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph)
   - [init.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph/__init__.py)
 - [tests](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests)
