@@ -41,6 +41,8 @@ Our project based on [algorithms](https://github.com/keon/algorithms).
 
 Minimal and clean example implementations of data structures and algorithms in Python 3.
 
+* * *
+
 ## Tests
 
 ### Use unittest
@@ -78,8 +80,7 @@ If you want to uninstall algorithms, it is as simple as:
 
     $ pip3 uninstall -y algorithms
 
-
-
+* * *
 
 ## <div id="Activities">Activities</div>
 ### <div id="code">Code Contribution</div>
@@ -96,6 +97,8 @@ If you want to uninstall algorithms, it is as simple as:
 * How the algorithms work
 * Association with the issue
 * Compared to traditional algorithms
+
+* * *
 
 ### <div id="page">Creating Team Static Page</div>
 - Our static page summing-up our activities.
