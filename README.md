@@ -5,6 +5,7 @@
 
 ## Index
 - [Members](#Members)
+- [About project](#project)
 - [Activities](#Activities)
   - [Code Contribution](#code)
   - [Creating Documents](#doc)
@@ -27,7 +28,7 @@
 
 * * *
 
-## About Project
+## <div id = "project">About Project</div>
 Our project based on [algorithms](https://github.com/keon/algorithms).
 
 ![algorithms](https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png)
