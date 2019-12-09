@@ -18,6 +18,15 @@
   animation-duration: 1s;
 }
 
+.ui.medium.image h4.ui.header {
+  margin-bottom: 0;
+}
+
+.meta {
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 1em;
+}
+
 @keyframes opacity {
   from { opacity: 0 }
   to { opacity: 1; }
