@@ -6,6 +6,11 @@
 ## Index
 - [Members](#Members)
 - [About project](#project)
+- [Tests](#test)
+  - [Use unittest](#unittest)
+  - [Use pytest](#pytest)
+- [Install](#install)
+- [Uninstall](#uninstall)
 - [Activities](#Activities)
   - [Code Contribution](#code)
   - [Creating Documents](#doc)
@@ -43,9 +48,9 @@ Minimal and clean example implementations of data structures and algorithms in P
 
 * * *
 
-## Tests
+## <div id = "test">Tests</div>
 
-### Use unittest
+### <div id = "unittest">Use unittest</div>
 For running all tests write down:
 
     $ python3 -m unittest discover tests
@@ -54,12 +59,12 @@ For running some specific tests you can do this as following (Ex: sort):
 
     $ python3 -m unittest tests.test_sort
 
-### Use pytest
+### <div id = "pytest">Use pytest</div>
 For running all tests write down:
 
     $ python3 -m pytest tests
 
-## Install
+## <div id = "install">Install</div>
 If you want to use the API algorithms in your code, it is as simple as:
 
     $ pip3 install algorithms
@@ -75,7 +80,7 @@ if __name__ == "__main__":
     print(my_list)
 ```
 
-## Uninstall
+## <div id = "uninstall">Uninstall</div>
 If you want to uninstall algorithms, it is as simple as:
 
     $ pip3 uninstall -y algorithms
