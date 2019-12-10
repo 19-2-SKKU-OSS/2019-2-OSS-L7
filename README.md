@@ -128,6 +128,10 @@ If you want to uninstall algorithms, it is as simple as:
   - [maximum_flow.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph/maximum_flow.py)
 - [strings](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_kmp/algorithms/strings)
   - [knuth_morris_pratt.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_kmp/algorithms/strings/knuth_morris_pratt.py)
+- [bfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs)
+  - [count_islands.py(add_bfs_count_islands)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
+- [dfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs)
+  - [maze_search.py(add_dfs_maze_search)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
 ### <div id="another">Another Files</div>
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
   - [init.py(code)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
@@ -140,10 +144,6 @@ If you want to uninstall algorithms, it is as simple as:
 - [bit](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit)
   - [init.py(code)](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit/__init__.py)
   - [trailing_zero.py(code)](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit/trailing_zero.py)
-- [bfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs)
-  - [count_islands.py(add_bfs_count_islands)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
-- [dfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs)
-  - [maze_search.py(add_dfs_maze_search)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
 
 * * *
 
