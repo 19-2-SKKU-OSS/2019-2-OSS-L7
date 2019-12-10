@@ -130,7 +130,7 @@ If you want to uninstall algorithms, it is as simple as:
   - [knuth_morris_pratt.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_kmp/algorithms/strings/knuth_morris_pratt.py)
 ### <div id="another">Another Files</div>
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
-  - [init.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
+  - [init.py(code)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
 - [graph](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph)
   - [init.py(add_network_flow)](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph/__init__.py)
 - [tests](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests)
