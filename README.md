@@ -132,7 +132,7 @@ If you want to uninstall algorithms, it is as simple as:
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
   - [init.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
 - [graph](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph)
-  - [init.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph/__init__.py)
+  - [init.py(add_network_flow)](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_network_flow/algorithms/graph/__init__.py)
 - [tests](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests)
   - [test_maths.py(add_find_order)](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_find_order/tests/test_maths.py)
   - [test_maths.py(add_gcd_bits)](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_gcd_bit/tests/test_maths.py)
