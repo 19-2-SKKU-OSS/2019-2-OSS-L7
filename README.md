@@ -129,9 +129,9 @@ If you want to uninstall algorithms, it is as simple as:
 - [strings](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_kmp/algorithms/strings)
   - [knuth_morris_pratt.py](https://github.com/19-2-SKKU-OSS/algorithms/blob/add_kmp/algorithms/strings/knuth_morris_pratt.py)
 - [bfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs)
-  - [count_islands.py(add_bfs_count_islands)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
+  - [count_islands.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
 - [dfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs)
-  - [maze_search.py(add_dfs_maze_search)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
+  - [maze_search.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
 ### <div id="another">Another Files</div>
 - [maths](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths)
   - [init.py(code)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/code/algorithms/maths/__init__.py)
