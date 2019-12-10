@@ -141,9 +141,9 @@ If you want to uninstall algorithms, it is as simple as:
   - [init.py(code)](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit/__init__.py)
   - [trailing_zero.py(code)](https://github.com/19-2-SKKU-OSS/algorithms/blob/code/algorithms/bit/trailing_zero.py)
 - [bfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs)
-  - [count_islands.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
+  - [count_islands.py(add_bfs_count_islands)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_bfs_count_islands/algorithms/bfs/count_islands.py)
 - [dfs](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs)
-  - [maze_search.py](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
+  - [maze_search.py(add_dfs_maze_search)](https://github.com/19-2-SKKU-OSS/2019-2-OSS-L7/blob/add_dfs_maze_search/algorithms/dfs/maze_search.py)
 
 * * *
 
